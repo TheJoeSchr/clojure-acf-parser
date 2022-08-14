@@ -4,6 +4,7 @@
 
 (defn read-file [filename]
   (slurp filename))
+
 (defn split-by-newline [s]
   (clojure.string/split s #"\n"))
 
@@ -18,9 +19,10 @@
   (clojure.string/split s #"\t+"))
 
 (defn trim-key-value [s]
-  
-(clojure.string/trim
- s))
+
+  (clojure.string/trim
+
+   s))
 
 (defn remove-quotes [s]
   (clojure.string/replace
@@ -32,29 +34,26 @@
    (remove-quotes
     (trim-key-value s))))
 
+(defn clean-lines [lines]
+  (map #(readkeyvalue %) lines))
+
+(comment (clean-lines multiple-lines-file))
+
 (defn keywordize-things [[key value & other]]
   (hash-map
    (keyword key) value))
 
-(comment (read-by-line
-          multiple-lines-file))
+; (map (fn [unmapped-row]
+;        (map vector vamp-keys unmapped-row))
+;      rows)
 
-(map (fn [unmapped-row]
-       (map vector vamp-keys unmapped-row))
-     rows)
+(defn mapify-lines [lines]
+  (map #(keywordize-things %) lines))
 
-(defn clean-lines [lines]
+(defn parse-by-line [lines]
   (reduce into
-          (map #(readkeyvalue %)
-               lines)))
-
-(comment (clean-lines
-          multiple-lines-file))
-
-(defn parse-by-line [multiple-lines]
-  (reduce into
-          (map #(keywordize-things (readkeyvalue %))
-               multiple-lines)))
+          (mapify-lines
+           (clean-lines lines))))
 
 (comment (:installdir (parse-by-line
                        multiple-lines-file)))
