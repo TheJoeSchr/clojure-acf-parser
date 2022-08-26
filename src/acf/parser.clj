@@ -9,7 +9,8 @@
   (fs/exists? full-acf-path))
 
 (defn split-by-newline [s]
-  (clojure.string/split s #"\n"))
+  (clojure.string/split
+   s #"\n"))
 
 (defn read-by-line [filename]
   (split-by-newline
@@ -24,9 +25,11 @@
 
 (defn trim-key-value [s]
   (clojure.string/trim s))
+
 (comment (trim-key-value "\t asdf \t"))
 (defn remove-quotes [s]
-  (clojure.string/replace s #"\\|\"" {"\\" "" "\"" ""}))
+  (clojure.string/replace
+   s #"\\|\"" {"\\" "" "\"" ""}))
 
 (defn readkeyvalue [s]
   (split-by-whitespace
@@ -38,13 +41,13 @@
    #(readkeyvalue %) lines))
 
 
-(defn 
-keywordize-things [[key value & other]]
+(defn keywordize-things [[key value & other]]
   (hash-map
    (keyword key) value))
 
 (defn mapify-lines [lines]
   (map #(keywordize-things %)
+
        lines))
 
 (comment (keywordize-things
@@ -78,18 +81,59 @@ keywordize-things [[key value & other]]
    (parse-by-line
     acf-file)))
 
-(defn mapInstalldir [filenames] (map #(:installdir (parse-by-line (read-file %))) filenames))
-(def -filenames '("../../files/appmanifest_1190460.acf" "../../files/appmanifest_12210.acf" "../../files/appmanifest_1282730.acf" "../../files/appmanifest_1434950.acf"))
-(comment (mapInstalldir filenames))
+(defn parse-file [file]
+  (parse-by-line
+   (
+read-file file)))
+
+
+(defn resolve-installs
+  [filenames commonpath]
+  (reduce
+   (fn [files file]
+     (let [installdir (:installdir (parse-file file))
+
+           exists (fs/exists? (str commonpath installdir))]
+       (into
+        files [{:path file :installDir installdir :exists exists}])))
+   ()
+   filenames))
+
+(defn filterGames
+  [filenames commonpath shouldExists]
+  (map :path
+       (filter
+        (fn [{exists
+              :exists}]          (= exists shouldExists))
+        (resolve-installs
+       
+  filenames commonpath))))
+
+
+(comment
+  (do
+    (defn mapInstalldir [filenames] (map #(:installdir (parse-file %)) filenames))
+    (def -filenames '("../../test/files/appmanifest_1190460.acf" "../../test/files/appmanifest_12210.acf" "../../test/files/appmanifest_1282730.acf" "../../test/files/appmanifest_1434950.acf")))
+  (mapInstalldir -filenames)
+  (resolve-installs -filenames "../../test/files/common/")
+  (filterGames -filenames "../../test/files/common/"
+               false))
 
 (defn -main [& args]
-  (do
-    (comment filenames)
-
-    ; (println (fs/exists? multiple-lines-path))
-    ; (println "-main: done")
-    ; (println (:installdir (parse-by-line multiple-lines-file)))
-    ; (edn/read *in*)
-    (let [filenames (line-seq
-                     (io/reader *in*))]
-      (mapInstalldir filenames))))
+  (let [filenames (line-seq
+                   (io/reader *in*))
+        commonpath (or
+                    (first args) "common")
+        games-found (filterGames filenames commonpath true)
+        games-not-found (filterGames filenames commonpath false)]
+    (do
+      ; adding second arg prints debug info
+      (if (> (count args) 1)
+        (do
+          (println (str "common:  " commonpath))
+          (println (str "# files: " (count filenames)))
+          (println (str "# games found: " (count games-found)))
+          (println (str "# games not found: " (count games-not-found)))))
+      ; only print missing games if we at least found one
+      (if (< (count games-not-found) (count filenames))
+        games-not-found))))
