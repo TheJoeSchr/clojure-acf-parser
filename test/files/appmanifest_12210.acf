@@ -1,0 +1,66 @@
+"AppState"
+{
+	"appid"		"12210"
+	"universe"		"1"
+	"name"		"Grand Theft Auto IV: The Complete Edition"
+	"StateFlags"		"4"
+	"installdir"		"Grand Theft Auto IV"
+	"LastUpdated"		"1659914154"
+	"SizeOnDisk"		"24099142669"
+	"StagingSize"		"0"
+	"buildid"		"6494866"
+	"LastOwner"		"76561198027494300"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"12218"
+		{
+			"manifest"		"3895891612834895937"
+			"size"		"205836272"
+		}
+		"12211"
+		{
+			"manifest"		"6191935862339672009"
+			"size"		"16332955239"
+		}
+		"12213"
+		{
+			"manifest"		"7959739752369022030"
+			"size"		"37487453"
+		}
+		"12212"
+		{
+			"manifest"		"5029883714475696364"
+			"size"		"7312739354"
+		}
+		"1899671"
+		{
+			"manifest"		"305612414515297846"
+			"size"		"210124351"
+		}
+	}
+	"InstallScripts"
+	{
+		"12211"		"GTAIV\\installscript.vdf"
+		"1899671"		"installscript_sdk.vdf"
+	}
+	"SharedDepots"
+	{
+		"228984"		"228980"
+		"228990"		"228980"
+	}
+	"UserConfig"
+	{
+		"platform_override_dest"		"linux"
+		"platform_override_source"		"windows"
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"platform_override_dest"		"linux"
+		"platform_override_source"		"windows"
+		"language"		"english"
+	}
+}

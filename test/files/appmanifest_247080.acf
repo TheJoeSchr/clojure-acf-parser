@@ -1,0 +1,43 @@
+"AppState"
+{
+	"appid"		"247080"
+	"universe"		"1"
+	"name"		"Crypt of the NecroDancer"
+	"StateFlags"		"6"
+	"installdir"		"Crypt of the NecroDancer"
+	"LastUpdated"		"1659655975"
+	"SizeOnDisk"		"1608931011"
+	"StagingSize"		"0"
+	"buildid"		"9254250"
+	"LastOwner"		"76561198027494300"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"196305"
+	"BytesDownloaded"		"0"
+	"BytesToStage"		"44386178"
+	"BytesStaged"		"0"
+	"TargetBuildID"		"9284358"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"1660710898"
+	"InstalledDepots"
+	{
+		"247083"
+		{
+			"manifest"		"3462815885007914830"
+			"size"		"1548276766"
+		}
+		"247085"
+		{
+			"manifest"		"2681560397626130245"
+			"size"		"60654245"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+	}
+}

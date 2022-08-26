@@ -1,0 +1,33 @@
+"AppState"
+{
+	"appid"		"306700"
+	"universe"		"1"
+	"name"		"Iron Fisticle"
+	"StateFlags"		"4"
+	"installdir"		"Iron Fisticle"
+	"LastUpdated"		"1608909961"
+	"SizeOnDisk"		"79769808"
+	"StagingSize"		"0"
+	"buildid"		"528463"
+	"LastOwner"		"76561198027494300"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"306701"
+		{
+			"manifest"		"8296173468495416431"
+			"size"		"79769808"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+		"platform_override_dest"		"linux"
+		"platform_override_source"		"windows"
+	}
+	"MountedConfig"
+	{
+	}
+}

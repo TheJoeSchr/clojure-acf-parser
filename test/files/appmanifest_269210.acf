@@ -1,0 +1,42 @@
+"AppState"
+{
+	"appid"		"269210"
+	"universe"		"1"
+	"name"		"Hero Siege"
+	"StateFlags"		"4"
+	"installdir"		"HeroSiege"
+	"LastUpdated"		"1657826779"
+	"SizeOnDisk"		"3119596631"
+	"StagingSize"		"0"
+	"buildid"		"9112570"
+	"LastOwner"		"76561198027494300"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"0"
+	"BytesDownloaded"		"0"
+	"BytesToStage"		"0"
+	"BytesStaged"		"0"
+	"TargetBuildID"		"0"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"269211"
+		{
+			"manifest"		"8314589979310233272"
+			"size"		"3119596631"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+		"platform_override_dest"		"linux"
+		"platform_override_source"		"windows"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+		"platform_override_dest"		"linux"
+		"platform_override_source"		"windows"
+	}
+}

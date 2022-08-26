@@ -1,0 +1,45 @@
+"AppState"
+{
+	"appid"		"606150"
+	"universe"		"1"
+	"name"		"Moonlighter"
+	"StateFlags"		"4"
+	"installdir"		"Moonlighter"
+	"LastUpdated"		"1647779473"
+	"SizeOnDisk"		"1243105958"
+	"StagingSize"		"0"
+	"buildid"		"6943760"
+	"LastOwner"		"76561198027494300"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"542139056"
+	"BytesDownloaded"		"542139056"
+	"BytesToStage"		"1243105958"
+	"BytesStaged"		"1243105958"
+	"TargetBuildID"		"6943760"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"606151"
+		{
+			"manifest"		"4412298631224247461"
+			"size"		"1243105958"
+		}
+	}
+	"SharedDepots"
+	{
+		"228985"		"228980"
+		"228986"		"228980"
+		"228987"		"228980"
+		"228990"		"228980"
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+	}
+}

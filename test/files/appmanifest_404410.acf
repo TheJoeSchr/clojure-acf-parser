@@ -1,0 +1,43 @@
+"AppState"
+{
+	"appid"		"404410"
+	"universe"		"1"
+	"name"		"Endless Sky"
+	"StateFlags"		"4"
+	"installdir"		"Endless Sky"
+	"LastUpdated"		"1659123530"
+	"SizeOnDisk"		"481844142"
+	"StagingSize"		"0"
+	"buildid"		"9194878"
+	"LastOwner"		"76561198027494300"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"404411"
+		{
+			"manifest"		"8142729167052874312"
+			"size"		"138583462"
+		}
+		"404417"
+		{
+			"manifest"		"1805100254712801070"
+			"size"		"3570728"
+		}
+		"404800"
+		{
+			"manifest"		"680370522049421004"
+			"size"		"339689952"
+			"dlcappid"		"404800"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+	}
+}

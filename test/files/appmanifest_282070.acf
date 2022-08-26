@@ -1,0 +1,50 @@
+"AppState"
+{
+	"appid"		"282070"
+	"universe"		"1"
+	"name"		"This War of Mine"
+	"StateFlags"		"4"
+	"installdir"		"This War of Mine"
+	"LastUpdated"		"1651617290"
+	"SizeOnDisk"		"2790767670"
+	"StagingSize"		"0"
+	"buildid"		"8650031"
+	"LastOwner"		"76561198027494300"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"2671623216"
+	"BytesDownloaded"		"2671623216"
+	"BytesToStage"		"2762936285"
+	"BytesStaged"		"2762936285"
+	"TargetBuildID"		"8650031"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"282071"
+		{
+			"manifest"		"8248095783586280330"
+			"size"		"27831385"
+		}
+		"282074"
+		{
+			"manifest"		"7485333621654403818"
+			"size"		"2762936285"
+		}
+	}
+	"SharedDepots"
+	{
+		"228981"		"228980"
+		"228983"		"228980"
+		"228988"		"228980"
+		"228990"		"228980"
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+	}
+}

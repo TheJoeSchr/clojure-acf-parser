@@ -1,0 +1,42 @@
+"AppState"
+{
+	"appid"		"701160"
+	"universe"		"1"
+	"name"		"Kingdom Two Crowns"
+	"StateFlags"		"4"
+	"installdir"		"Kingdom Two Crowns"
+	"LastUpdated"		"1652351863"
+	"SizeOnDisk"		"1442893969"
+	"StagingSize"		"0"
+	"buildid"		"8532412"
+	"LastOwner"		"76561198027494300"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"37312688"
+	"BytesDownloaded"		"37312688"
+	"BytesToStage"		"631689894"
+	"BytesStaged"		"631689894"
+	"TargetBuildID"		"8532412"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"701161"
+		{
+			"manifest"		"8428271783435563530"
+			"size"		"1442893969"
+		}
+	}
+	"SharedDepots"
+	{
+		"228990"		"228980"
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+	}
+}

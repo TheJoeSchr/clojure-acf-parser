@@ -1,0 +1,57 @@
+"AppState"
+{
+	"appid"		"367500"
+	"universe"		"1"
+	"name"		"Dragon's Dogma: Dark Arisen"
+	"StateFlags"		"4"
+	"installdir"		"DDDA"
+	"LastUpdated"		"1655064886"
+	"SizeOnDisk"		"21129475698"
+	"StagingSize"		"0"
+	"buildid"		"2364871"
+	"LastOwner"		"76561198027494300"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"0"
+	"BytesDownloaded"		"0"
+	"BytesToStage"		"0"
+	"BytesStaged"		"0"
+	"TargetBuildID"		"0"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"367501"
+		{
+			"manifest"		"735672774601731466"
+			"size"		"20726379955"
+		}
+		"367502"
+		{
+			"manifest"		"7589884595560946912"
+			"size"		"403033713"
+		}
+		"367503"
+		{
+			"manifest"		"3311468442518842200"
+			"size"		"62030"
+		}
+	}
+	"SharedDepots"
+	{
+		"228983"		"228980"
+		"228990"		"228980"
+	}
+	"UserConfig"
+	{
+		"platform_override_dest"		"linux"
+		"platform_override_source"		"windows"
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"platform_override_dest"		"linux"
+		"platform_override_source"		"windows"
+		"language"		"english"
+	}
+}

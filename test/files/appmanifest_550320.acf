@@ -1,0 +1,43 @@
+"AppState"
+{
+	"appid"		"550320"
+	"universe"		"1"
+	"name"		"art of rally"
+	"StateFlags"		"4"
+	"installdir"		"artofrally"
+	"LastUpdated"		"1659105564"
+	"SizeOnDisk"		"5964790897"
+	"StagingSize"		"0"
+	"buildid"		"9033804"
+	"LastOwner"		"76561198027494300"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"1874397392"
+	"BytesDownloaded"		"1874397392"
+	"BytesToStage"		"5964790897"
+	"BytesStaged"		"5964790897"
+	"TargetBuildID"		"9033804"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"StagingFolder"		"0"
+	"InstalledDepots"
+	{
+		"550323"
+		{
+			"manifest"		"132303364141866208"
+			"size"		"5964790897"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+		"platform_override_dest"		""
+		"platform_override_source"		""
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+		"platform_override_dest"		""
+		"platform_override_source"		""
+	}
+}

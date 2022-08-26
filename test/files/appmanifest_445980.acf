@@ -1,0 +1,42 @@
+"AppState"
+{
+	"appid"		"445980"
+	"universe"		"1"
+	"name"		"Wizard of Legend"
+	"StateFlags"		"4"
+	"installdir"		"Wizard of Legend"
+	"LastUpdated"		"1647800156"
+	"SizeOnDisk"		"878523469"
+	"StagingSize"		"0"
+	"buildid"		"8336037"
+	"LastOwner"		"76561198027494300"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"295558864"
+	"BytesDownloaded"		"295558864"
+	"BytesToStage"		"764356775"
+	"BytesStaged"		"764356775"
+	"TargetBuildID"		"8336037"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"445982"
+		{
+			"manifest"		"3647059987622698915"
+			"size"		"878523469"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+		"platform_override_dest"		"linux"
+		"platform_override_source"		"windows"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+		"platform_override_dest"		"linux"
+		"platform_override_source"		"windows"
+	}
+}

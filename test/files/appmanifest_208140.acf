@@ -1,0 +1,44 @@
+"AppState"
+{
+	"appid"		"208140"
+	"universe"		"1"
+	"name"		"ENDLESS™ Space - Definitive Edition"
+	"StateFlags"		"4"
+	"installdir"		"Endless Space"
+	"LastUpdated"		"1620822948"
+	"SizeOnDisk"		"3453177804"
+	"StagingSize"		"0"
+	"buildid"		"543423"
+	"LastOwner"		"76561198027494300"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"208141"
+		{
+			"manifest"		"3957738205581476253"
+			"size"		"3154356062"
+		}
+		"208148"
+		{
+			"manifest"		"5681829609925772287"
+			"size"		"49969676"
+		}
+		"241430"
+		{
+			"manifest"		"7237531303189000329"
+			"size"		"298807259"
+			"dlcappid"		"241430"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+		"platform_override_dest"		"linux"
+		"platform_override_source"		"windows"
+	}
+	"MountedConfig"
+	{
+	}
+}

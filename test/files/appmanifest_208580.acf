@@ -1,0 +1,41 @@
+"AppState"
+{
+	"appid"		"208580"
+	"universe"		"1"
+	"name"		"STAR WARS™ Knights of the Old Republic™ II: The Sith Lords™"
+	"StateFlags"		"4"
+	"installdir"		"Knights of the Old Republic II"
+	"LastUpdated"		"1609844247"
+	"SizeOnDisk"		"4809665211"
+	"StagingSize"		"0"
+	"buildid"		"817494"
+	"LastOwner"		"76561198027494300"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"383207"
+		{
+			"manifest"		"4516302155192894829"
+			"size"		"3820520314"
+		}
+		"383208"
+		{
+			"manifest"		"8787354934479674151"
+			"size"		"17971862"
+		}
+		"383209"
+		{
+			"manifest"		"8293901328702244966"
+			"size"		"971173035"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+	}
+}

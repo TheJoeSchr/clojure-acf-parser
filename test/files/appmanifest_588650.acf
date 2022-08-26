@@ -1,0 +1,42 @@
+"AppState"
+{
+	"appid"		"588650"
+	"universe"		"1"
+	"name"		"Dead Cells"
+	"StateFlags"		"4"
+	"installdir"		"Dead Cells"
+	"LastUpdated"		"1659731171"
+	"SizeOnDisk"		"1294257267"
+	"StagingSize"		"0"
+	"buildid"		"9237302"
+	"LastOwner"		"76561198027494300"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"1221457968"
+	"BytesDownloaded"		"1221457968"
+	"BytesToStage"		"1294257267"
+	"BytesStaged"		"1294257267"
+	"TargetBuildID"		"9237302"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"588653"
+		{
+			"manifest"		"7524408617191802820"
+			"size"		"1294257267"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+		"platform_override_dest"		"linux"
+		"platform_override_source"		"windows"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+		"platform_override_dest"		"linux"
+		"platform_override_source"		"windows"
+	}
+}

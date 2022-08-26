@@ -1,0 +1,56 @@
+"AppState"
+{
+	"appid"		"228200"
+	"universe"		"1"
+	"name"		"Company of Heroes "
+	"StateFlags"		"4"
+	"installdir"		"Company of Heroes Relaunch"
+	"LastUpdated"		"1659911434"
+	"SizeOnDisk"		"9483869940"
+	"StagingSize"		"0"
+	"buildid"		"1647830"
+	"LastOwner"		"76561198027494300"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"0"
+	"BytesDownloaded"		"0"
+	"BytesToStage"		"0"
+	"BytesStaged"		"0"
+	"TargetBuildID"		"0"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"228201"
+		{
+			"manifest"		"6778052271273726154"
+			"size"		"69061231"
+		}
+		"228202"
+		{
+			"manifest"		"5659918162838796781"
+			"size"		"6642487033"
+		}
+		"228203"
+		{
+			"manifest"		"7675744675381325419"
+			"size"		"2772321676"
+		}
+	}
+	"SharedDepots"
+	{
+		"228990"		"228980"
+	}
+	"UserConfig"
+	{
+		"platform_override_dest"		"linux"
+		"platform_override_source"		"windows"
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"platform_override_dest"		"linux"
+		"platform_override_source"		"windows"
+		"language"		"english"
+	}
+}

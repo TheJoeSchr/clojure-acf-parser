@@ -1,0 +1,38 @@
+"AppState"
+{
+	"appid"		"773580"
+	"universe"		"1"
+	"name"		"Game Dev Studio"
+	"StateFlags"		"4"
+	"installdir"		"Game Dev Studio"
+	"LastUpdated"		"1660041392"
+	"SizeOnDisk"		"117901401"
+	"StagingSize"		"0"
+	"buildid"		"5882509"
+	"LastOwner"		"76561198027494300"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"97803200"
+	"BytesDownloaded"		"97803200"
+	"BytesToStage"		"117901401"
+	"BytesStaged"		"117901401"
+	"TargetBuildID"		"5882509"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"773582"
+		{
+			"manifest"		"9134345893843672282"
+			"size"		"117901401"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+	}
+}

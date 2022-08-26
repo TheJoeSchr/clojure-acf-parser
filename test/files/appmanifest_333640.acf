@@ -1,0 +1,32 @@
+"AppState"
+{
+	"appid"		"333640"
+	"universe"		"1"
+	"name"		"Caves of Qud"
+	"StateFlags"		"4"
+	"installdir"		"Caves of Qud"
+	"LastUpdated"		"1659456512"
+	"SizeOnDisk"		"670860893"
+	"StagingSize"		"0"
+	"buildid"		"9210438"
+	"LastOwner"		"76561198027494300"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"333643"
+		{
+			"manifest"		"4195306017120895437"
+			"size"		"670860893"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+	}
+}

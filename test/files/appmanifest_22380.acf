@@ -1,0 +1,130 @@
+"AppState"
+{
+	"appid"		"22380"
+	"universe"		"1"
+	"name"		"Fallout: New Vegas"
+	"StateFlags"		"4"
+	"installdir"		"Fallout New Vegas"
+	"LastUpdated"		"1626006536"
+	"SizeOnDisk"		"9907238641"
+	"StagingSize"		"0"
+	"buildid"		"1510068"
+	"LastOwner"		"76561198027494300"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"0"
+	"BytesDownloaded"		"0"
+	"BytesToStage"		"0"
+	"BytesStaged"		"0"
+	"TargetBuildID"		"0"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"72840"
+		{
+			"manifest"		"6228338984629967746"
+			"size"		"132288070"
+			"dlcappid"		"72840"
+		}
+		"72760"
+		{
+			"manifest"		"4819448886064400670"
+			"size"		"28827118"
+			"dlcappid"		"72760"
+		}
+		"72750"
+		{
+			"manifest"		"3995530604401716079"
+			"size"		"67207292"
+			"dlcappid"		"72750"
+		}
+		"72740"
+		{
+			"manifest"		"4489420091293378368"
+			"size"		"14267595"
+			"dlcappid"		"72740"
+		}
+		"72731"
+		{
+			"manifest"		"8907026380183228960"
+			"size"		"105097622"
+		}
+		"22475"
+		{
+			"manifest"		"2098145519916214977"
+			"size"		"5842502"
+			"dlcappid"		"22475"
+		}
+		"22470"
+		{
+			"manifest"		"3345471689591269370"
+			"size"		"1838466"
+			"dlcappid"		"22470"
+		}
+		"22465"
+		{
+			"manifest"		"1831628242600766040"
+			"size"		"8452077"
+			"dlcappid"		"22465"
+		}
+		"22460"
+		{
+			"manifest"		"7297705168696770122"
+			"size"		"4238390"
+			"dlcappid"		"22460"
+		}
+		"22393"
+		{
+			"manifest"		"8227935753987096201"
+			"size"		"26663666"
+		}
+		"22381"
+		{
+			"manifest"		"8327177303444281069"
+			"size"		"5042891914"
+		}
+		"22382"
+		{
+			"manifest"		"1869121858616960493"
+			"size"		"2203492690"
+		}
+		"72732"
+		{
+			"manifest"		"4131381354636064588"
+			"size"		"365162995"
+		}
+		"72742"
+		{
+			"manifest"		"4517089570337326424"
+			"size"		"410834942"
+		}
+		"72751"
+		{
+			"manifest"		"1624841217294494503"
+			"size"		"697011037"
+		}
+		"72761"
+		{
+			"manifest"		"5717050455382180241"
+			"size"		"792869800"
+		}
+		"72841"
+		{
+			"manifest"		"7404324045800590955"
+			"size"		"252465"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+		"platform_override_dest"		"linux"
+		"platform_override_source"		"windows"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+		"platform_override_dest"		"linux"
+		"platform_override_source"		"windows"
+	}
+}

@@ -1,0 +1,41 @@
+"AppState"
+{
+	"appid"		"1522820"
+	"universe"		"1"
+	"name"		"Orcs Must Die! 3"
+	"StateFlags"		"4"
+	"installdir"		"Orcs Must Die 3"
+	"LastUpdated"		"1659814782"
+	"SizeOnDisk"		"14159017446"
+	"StagingSize"		"0"
+	"buildid"		"8601683"
+	"LastOwner"		"76561198027494300"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"1522821"
+		{
+			"manifest"		"6190366586624279663"
+			"size"		"14159017446"
+		}
+	}
+	"SharedDepots"
+	{
+		"228988"		"228980"
+		"228990"		"228980"
+	}
+	"UserConfig"
+	{
+		"platform_override_dest"		"linux"
+		"platform_override_source"		"windows"
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"platform_override_dest"		"linux"
+		"platform_override_source"		"windows"
+		"language"		"english"
+	}
+}

@@ -1,0 +1,34 @@
+"AppState"
+{
+	"appid"		"413150"
+	"Universe"		"1"
+	"name"		"Stardew Valley"
+	"StateFlags"		"4"
+	"installdir"		"Stardew Valley"
+	"LastUpdated"		"1642593194"
+	"UpdateResult"		"0"
+	"SizeOnDisk"		"673045222"
+	"buildid"		"8043676"
+	"LastOwner"		"76561198027494300"
+	"BytesToDownload"		"5984"
+	"BytesDownloaded"		"5984"
+	"BytesToStage"		"497116233"
+	"BytesStaged"		"497116233"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"413153"
+		{
+			"manifest"		"5898757968212855302"
+			"size"		"673045222"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+		"platform_override_dest"		""
+		"platform_override_source"		""
+	}
+}

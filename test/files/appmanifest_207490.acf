@@ -1,0 +1,43 @@
+"AppState"
+{
+	"appid"		"207490"
+	"universe"		"1"
+	"name"		"Rayman Origins"
+	"StateFlags"		"1026"
+	"installdir"		"ValveTestApp207490"
+	"LastUpdated"		"0"
+	"SizeOnDisk"		"0"
+	"StagingSize"		"2480991890"
+	"buildid"		"0"
+	"LastOwner"		"76561198027494300"
+	"UpdateResult"		"4"
+	"BytesToDownload"		"2198057664"
+	"BytesDownloaded"		"1835519872"
+	"BytesToStage"		"2480991890"
+	"BytesStaged"		"2095717137"
+	"TargetBuildID"		"211474"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+	}
+	"StagedDepots"
+	{
+		"207491"
+		{
+			"manifest"		"6464642990086271636"
+			"size"		"2480991890"
+			"dlcappid"		"0"
+		}
+	}
+	"UserConfig"
+	{
+		"platform_override_dest"		"linux"
+		"platform_override_source"		"windows"
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+	}
+}

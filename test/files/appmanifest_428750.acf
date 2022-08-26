@@ -1,0 +1,31 @@
+"AppState"
+{
+	"appid"		"428750"
+	"universe"		"1"
+	"name"		"Neon Chrome"
+	"StateFlags"		"4"
+	"installdir"		"Neon Chrome"
+	"LastUpdated"		"1622984904"
+	"SizeOnDisk"		"141563760"
+	"StagingSize"		"0"
+	"buildid"		"6182212"
+	"LastOwner"		"76561198027494300"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"428753"
+		{
+			"manifest"		"6027247917930520055"
+			"size"		"141563760"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+	}
+}

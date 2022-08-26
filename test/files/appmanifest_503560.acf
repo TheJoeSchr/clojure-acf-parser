@@ -1,0 +1,33 @@
+"AppState"
+{
+	"appid"		"503560"
+	"universe"		"1"
+	"name"		"911 Operator"
+	"StateFlags"		"4"
+	"installdir"		"911 Operator"
+	"LastUpdated"		"1647801033"
+	"SizeOnDisk"		"1129897615"
+	"StagingSize"		"0"
+	"buildid"		"7533741"
+	"LastOwner"		"76561198027494300"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"503561"
+		{
+			"manifest"		"2414987855758851071"
+			"size"		"1129897615"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+		"platform_override_dest"		"linux"
+		"platform_override_source"		"windows"
+	}
+	"MountedConfig"
+	{
+	}
+}

@@ -1,0 +1,47 @@
+"AppState"
+{
+	"appid"		"940710"
+	"universe"		"1"
+	"name"		"Colt Canyon"
+	"StateFlags"		"4"
+	"installdir"		"Colt Canyon"
+	"LastUpdated"		"1660160780"
+	"SizeOnDisk"		"567319139"
+	"StagingSize"		"0"
+	"buildid"		"9156744"
+	"LastOwner"		"76561198027494300"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"351380976"
+	"BytesDownloaded"		"351380976"
+	"BytesToStage"		"567319139"
+	"BytesStaged"		"567319139"
+	"TargetBuildID"		"9156744"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"940711"
+		{
+			"manifest"		"2045751661868522925"
+			"size"		"567319139"
+		}
+	}
+	"SharedDepots"
+	{
+		"228988"		"228980"
+		"228990"		"228980"
+	}
+	"UserConfig"
+	{
+		"platform_override_dest"		"linux"
+		"platform_override_source"		"windows"
+		"language"		"english"
+	}
+	"MountedConfig"
+	{
+		"platform_override_dest"		"linux"
+		"platform_override_source"		"windows"
+		"language"		"english"
+	}
+}

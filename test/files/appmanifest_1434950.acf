@@ -1,0 +1,38 @@
+"AppState"
+{
+	"appid"		"1434950"
+	"universe"		"1"
+	"name"		"HighFleet"
+	"StateFlags"		"4"
+	"installdir"		"HighFleet"
+	"LastUpdated"		"1645728218"
+	"SizeOnDisk"		"1455554256"
+	"StagingSize"		"0"
+	"buildid"		"8250268"
+	"LastOwner"		"76561198027494300"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"1434951"
+		{
+			"manifest"		"8906048549006393421"
+			"size"		"1455554256"
+		}
+	}
+	"SharedDepots"
+	{
+		"228988"		"228980"
+		"228990"		"228980"
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+		"platform_override_dest"		"linux"
+		"platform_override_source"		"windows"
+	}
+	"MountedConfig"
+	{
+	}
+}

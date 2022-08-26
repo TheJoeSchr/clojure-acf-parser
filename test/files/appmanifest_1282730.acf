@@ -1,0 +1,36 @@
+"AppState"
+{
+	"appid"		"1282730"
+	"universe"		"1"
+	"name"		"Loop Hero"
+	"StateFlags"		"4"
+	"installdir"		"Loop Hero"
+	"LastUpdated"		"1655213796"
+	"SizeOnDisk"		"219417392"
+	"StagingSize"		"0"
+	"buildid"		"8880841"
+	"LastOwner"		"76561198027494300"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"1282731"
+		{
+			"manifest"		"8165432537397597087"
+			"size"		"219417392"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+		"platform_override_dest"		"linux"
+		"platform_override_source"		"windows"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+		"platform_override_dest"		"linux"
+		"platform_override_source"		"windows"
+	}
+}

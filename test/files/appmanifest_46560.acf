@@ -1,0 +1,47 @@
+"AppState"
+{
+	"appid"		"46560"
+	"universe"		"1"
+	"name"		"Robin Hood"
+	"StateFlags"		"4"
+	"installdir"		"Robin Hood"
+	"LastUpdated"		"1610310914"
+	"SizeOnDisk"		"1089822029"
+	"StagingSize"		"0"
+	"buildid"		"595158"
+	"LastOwner"		"76561198027494300"
+	"UpdateResult"		"0"
+	"BytesToDownload"		"659264320"
+	"BytesDownloaded"		"659264320"
+	"BytesToStage"		"1089822029"
+	"BytesStaged"		"1089822029"
+	"TargetBuildID"		"595158"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"46561"
+		{
+			"manifest"		"2727997211104639851"
+			"size"		"831023332"
+		}
+		"46562"
+		{
+			"manifest"		"7050828205187860549"
+			"size"		"258798697"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+		"platform_override_dest"		"linux"
+		"platform_override_source"		"windows"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+		"platform_override_dest"		"linux"
+		"platform_override_source"		"windows"
+	}
+}

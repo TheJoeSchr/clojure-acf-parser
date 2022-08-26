@@ -1,0 +1,46 @@
+"AppState"
+{
+	"appid"		"600610"
+	"universe"		"1"
+	"name"		"The Hand of Merlin"
+	"StateFlags"		"4"
+	"installdir"		"The Hand of Merlin"
+	"LastUpdated"		"1655583243"
+	"SizeOnDisk"		"5332152028"
+	"StagingSize"		"0"
+	"buildid"		"8955343"
+	"LastOwner"		"76561198027494300"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"600611"
+		{
+			"manifest"		"4514094519184698227"
+			"size"		"5167727105"
+		}
+		"600612"
+		{
+			"manifest"		"6547453924780807241"
+			"size"		"75247104"
+		}
+		"600613"
+		{
+			"manifest"		"8097539402967355935"
+			"size"		"89177819"
+		}
+	}
+	"UserConfig"
+	{
+		"language"		"english"
+		"platform_override_dest"		"linux"
+		"platform_override_source"		"windows"
+	}
+	"MountedConfig"
+	{
+		"language"		"english"
+		"platform_override_dest"		"linux"
+		"platform_override_source"		"windows"
+	}
+}
