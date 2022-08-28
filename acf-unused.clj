@@ -3,8 +3,8 @@
                          [clojure.edn :as edn]
                          [clojure.java.io :as io]))
 
-(def multiple-lines-path "../../test/multiline.acf")
-(def full-acf-path "../../test/example.acf")
+(def multiple-lines-path "test/multiline.acf")
+(def full-acf-path "test/example.acf")
 
 (comment
   (fs/exists? full-acf-path))
@@ -68,7 +68,6 @@ multiple-lines-file))))
           (mapify-lines (clean-lines
                          lines))))
 
-
 (def multiple-lines-file (read-file multiple-lines-path))
 (def acf-file (read-file full-acf-path))
 (comment (parse-by-line multiple-lines-file))
@@ -92,60 +91,47 @@ multiple-lines-file))))
   [filenames commonpath]
   (reduce
    (fn [files file]
-     
+
 (let [installdir (:installdir (parse-file file))
-
-
-     
       exists (fs/exists? (str commonpath installdir))]
-       (into
-        files 
-[{:path file :installDir installdir :exists exists}])))
-   ()
-   filenames))
+       (into files [{:path file :installDir installdir :exists exists}])))
+         ()
+         filenames))
 
 (defn filterGames
+  "looksup acf-files installdir inside commonfolder and filters accordingly to `shouldExists`"
   [filenames commonpath shouldExists]
   (map :path
        (filter
-        (fn [{exists
-              :exists}]          (= exists shouldExists))
-        (resolve-installs
-
-         filenames commonpath))))
+        (fn [{exists :exists}] (= exists shouldExists))
+        (resolve-installs filenames commonpath))))
 
 
 (comment
   (do
     (defn mapInstalldir [filenames] (map #(:installdir (parse-file %)) filenames))
-    
-(def -filenames '("../../test/files/appmanifest_1190460.acf" "../../test/files/appmanifest_12210.acf" "../../test/files/appmanifest_1282730.acf" "../../test/files/appmanifest_1434950.acf")))
+
+(def -filenames '("test/files/appmanifest_1190460.acf" "test/files/appmanifest_12210.acf" "test/files/appmanifest_1282730.acf" "test/files/appmanifest_1434950.acf")))
   (mapInstalldir -filenames)
-  (resolve-installs -filenames "../../test/files/common/")
-  (filterGames -filenames "../../test/files/common/"
-               false))
+  (resolve-installs -filenames "test/files/common/")
+  (filterGames -filenames "test/files/common/" false))
 
 (defn -main [& args]
-  (let [filenames (line-seq
-                   (io/reader *in*))
-        commonpath (or
-                    (first args) "common")
-   
-     games-found (filterGames filenames commonpath true)
+  (let [filenames (line-seq (io/reader *in*))
+        commonpath (or (first args) "common")
+        games-found (filterGames filenames commonpath true)
         games-not-found (filterGames filenames commonpath false)]
     (do
       ; adding second arg prints debug info
       (if (> (count args) 1)
-        (do
-          (println
- (str "common:  " commonpath))
+        (do (println (str "common:  " commonpath))
           (println (str "# files: " (count filenames)))
-          (println (str 
-"# games found: " (count games-found)))
+          (println (str "# games found: " (count games-found)))
           (println (str "# games not found: " (count games-not-found)))))
       ; only print missing games if we at least found one
       (if (< (count games-not-found) (count filenames))
         games-not-found))))
 
+; helps running file directly via bb -f
 (when (= *file* (System/getProperty "babashka.file"))
   (apply -main *command-line-args*))
