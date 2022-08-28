@@ -83,8 +83,7 @@
 
 (defn parse-file [file]
   (parse-by-line
-   (
-read-file file)))
+   (read-file file)))
 
 
 (defn resolve-installs
@@ -106,8 +105,8 @@ read-file file)))
         (fn [{exists
               :exists}]          (= exists shouldExists))
         (resolve-installs
-       
-  filenames commonpath))))
+
+         filenames commonpath))))
 
 
 (comment
