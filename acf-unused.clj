@@ -91,12 +91,11 @@ multiple-lines-file))))
   [filenames commonpath]
   (reduce
    (fn [files file]
-
-(let [installdir (:installdir (parse-file file))
-      exists (fs/exists? (str commonpath installdir))]
-       (into files [{:path file :installDir installdir :exists exists}])))
-         ()
-         filenames))
+    (let [installdir (:installdir (parse-file file))
+          exists (fs/exists? (str commonpath installdir))]
+           (into files [{:path file :installDir installdir :exists exists}])))
+             ()
+             filenames))
 
 (defn filterGames
   "looksup acf-files installdir inside commonfolder and filters accordingly to `shouldExists`"
@@ -114,7 +113,10 @@ multiple-lines-file))))
 (def -filenames '("test/files/appmanifest_1190460.acf" "test/files/appmanifest_12210.acf" "test/files/appmanifest_1282730.acf" "test/files/appmanifest_1434950.acf")))
   (mapInstalldir -filenames)
   (resolve-installs -filenames "test/files/common/")
-  (filterGames -filenames "test/files/common/" false))
+  (filterGames -filenames "test/files/common/" false)
+  (doseq [item (filterGames -filenames "test/files/common/" false)]
+   (println item))
+  (doseq (vec )))
 
 (defn -main [& args]
   (let [filenames (line-seq (io/reader *in*))
@@ -130,7 +132,9 @@ multiple-lines-file))))
           (println (str "# games not found: " (count games-not-found)))))
       ; only print missing games if we at least found one
       (if (< (count games-not-found) (count filenames))
-        games-not-found))))
+        (doseq [acf-file games-not-found]
+         (println acf-file ))
+        ))))
 
 ; helps running file directly via bb -f
 (when (= *file* (System/getProperty "babashka.file"))
