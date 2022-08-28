@@ -1,4 +1,5 @@
-(ns acf.parser (:require [babashka.fs :as fs]
+#!/usr/bin/env bb
+(ns acf-unused (:require [babashka.fs :as fs]
                          [clojure.edn :as edn]
                          [clojure.java.io :as io]))
 
@@ -56,7 +57,8 @@
 
 (comment (first (clean-lines multiple-lines-file)))
 (comment
-  (keywordize-things (first (clean-lines multiple-lines-file))))
+  (keywordize-things (first (clean-lines 
+multiple-lines-file))))
 (comment (mapify-lines
           (clean-lines
            multiple-lines-file)))
@@ -90,11 +92,15 @@
   [filenames commonpath]
   (reduce
    (fn [files file]
-     (let [installdir (:installdir (parse-file file))
+     
+(let [installdir (:installdir (parse-file file))
 
-           exists (fs/exists? (str commonpath installdir))]
+
+     
+      exists (fs/exists? (str commonpath installdir))]
        (into
-        files [{:path file :installDir installdir :exists exists}])))
+        files 
+[{:path file :installDir installdir :exists exists}])))
    ()
    filenames))
 
@@ -112,7 +118,8 @@
 (comment
   (do
     (defn mapInstalldir [filenames] (map #(:installdir (parse-file %)) filenames))
-    (def -filenames '("../../test/files/appmanifest_1190460.acf" "../../test/files/appmanifest_12210.acf" "../../test/files/appmanifest_1282730.acf" "../../test/files/appmanifest_1434950.acf")))
+    
+(def -filenames '("../../test/files/appmanifest_1190460.acf" "../../test/files/appmanifest_12210.acf" "../../test/files/appmanifest_1282730.acf" "../../test/files/appmanifest_1434950.acf")))
   (mapInstalldir -filenames)
   (resolve-installs -filenames "../../test/files/common/")
   (filterGames -filenames "../../test/files/common/"
@@ -123,16 +130,22 @@
                    (io/reader *in*))
         commonpath (or
                     (first args) "common")
-        games-found (filterGames filenames commonpath true)
+   
+     games-found (filterGames filenames commonpath true)
         games-not-found (filterGames filenames commonpath false)]
     (do
       ; adding second arg prints debug info
       (if (> (count args) 1)
         (do
-          (println (str "common:  " commonpath))
+          (println
+ (str "common:  " commonpath))
           (println (str "# files: " (count filenames)))
-          (println (str "# games found: " (count games-found)))
+          (println (str 
+"# games found: " (count games-found)))
           (println (str "# games not found: " (count games-not-found)))))
       ; only print missing games if we at least found one
       (if (< (count games-not-found) (count filenames))
         games-not-found))))
+
+(when (= *file* (System/getProperty "babashka.file"))
+  (apply -main *command-line-args*))
