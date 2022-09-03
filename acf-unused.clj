@@ -1,5 +1,5 @@
 #!/usr/bin/env bb
-(ns acf-unused (:require [babashka.fs :as fs]
+(ns acf.unused (:require [babashka.fs :as fs]
                          [clojure.edn :as edn]
                          [clojure.java.io :as io]))
 
