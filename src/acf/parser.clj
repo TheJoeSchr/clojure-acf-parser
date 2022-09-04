@@ -87,13 +87,16 @@ multiple-lines-file))))
    (read-file file)))
 
 
+(defn get-key-from-acf [keyname file]
+  (keyname (parse-file file)))
+
 (defn resolve-installs
   [filenames commonpath]
   (reduce
    (fn [files file]
-    (let [installdir (:installdir (parse-file file))
+    (let [installdir (get-key-from-acf :installdir file)
           exists (fs/exists? (str commonpath installdir))]
-           (into files [{:path file :installDir installdir :exists exists}])))
+           (into files [{:path file :installdir installdir :exists exists}])))
              ()
              filenames))
 
