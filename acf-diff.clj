@@ -104,7 +104,11 @@
           (do
             (println filename )
             ; path of installdir
-            (println (str/join "/" [common (surround-with-doublequotes (parser/get-key-from-acf :installdir filename)) ]))    
+            
+; (str (basepath *file*) fs/file-separator "common")
+
+            (let [installdir (parser/get-key-from-acf :installdir filename)
+                  commonpath (if common (str/join fs/file-separator [(basepath filename) "common"]) "")] (println (str/join "/" [commonpath (surround-with-doublequotes installdir) ])))    
             ))
         )
       )
