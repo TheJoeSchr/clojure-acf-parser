@@ -29,7 +29,7 @@
     ;; with :multi true, the :update-fn is passed both the existing parsed
     ;; value(s) and the new parsed value from each option
     :update-fn conj]
-   ["-c" "--common" "Paths to common dir" :default (str (basepath *file*) fs/file-separator "common")]
+   ["-c" "--[no-]common" "Add common paths installdir" :default true]
    ["-n" "--pprint" "Pretty print games that are in both lists" :default false]
    ["-d" "--debug" "Debug prints" :default false]
    ["-h" "--help"]])
