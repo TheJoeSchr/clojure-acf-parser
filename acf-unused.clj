@@ -4,7 +4,7 @@
                          [clojure.java.io :as io]))
 (load-file "src/acf/parser.clj")
 (comment (keys (ns-publics *ns*)))
-(require '[acf.parser :as parser ])
+(require '[acf.parser :as parser])
 (comment (keys (ns-publics 'acf.parser)))
 
 (defn filterGames
@@ -18,11 +18,10 @@
 (comment
   (do
     (def -filenames '("test/files/appmanifest_1190460.acf" "test/files/appmanifest_12210.acf" "test/files/appmanifest_1282730.acf" "test/files/appmanifest_1434950.acf"))
-      (resolve-installs -filenames "test/files/common/")
-      (filterGames -filenames "test/files/common/" false)
-      (doseq [item (filterGames -filenames "test/files/common/" false)]
-               (println item))
-      ) )
+    (resolve-installs -filenames "test/files/common/")
+    (filterGames -filenames "test/files/common/" false)
+    (doseq [item (filterGames -filenames "test/files/common/" false)]
+      (println item))))
 
 (defn -main [& args]
   (let [filenames (line-seq (io/reader *in*))
@@ -39,8 +38,7 @@
       ; only print missing games if we at least found one
       (if (< (count games-not-found) (count filenames))
         (doseq [acf-file games-not-found]
-          (println acf-file ))
-        ))))
+          (println acf-file))))))
 
 ; helps running file directly via bb -f
 (when (= *file* (System/getProperty "babashka.file"))
