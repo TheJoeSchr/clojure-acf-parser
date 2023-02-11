@@ -1,3 +1,5 @@
 iced_stdout  
 .nrepl-port
 files/*
+.clj-kondo/
+.lsp/
