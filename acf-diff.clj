@@ -84,18 +84,14 @@
           (println (parser/get-key-from-acf :name filename))
           ;else
           (do
-            (println filename )
+            (println filename)
             ; path of installdir
-            
+
 ; (str (basepath *file*) fs/file-separator "common")
 
             (let [installdir (parser/get-key-from-acf :installdir filename)
-                  commonpath (if common (str/join fs/file-separator [(basepath filename) "common"]) "")] (println (str/join "/" [commonpath (surround-with-doublequotes installdir) ])))    
-            ))
-        )
-      )
-    )
-  )
+                  commonpath (if common (str/join fs/file-separator [(basepath filename) "common"]) "")] (println (str/join "/" [commonpath (surround-with-doublequotes installdir)])))))))))
+
 ; helps running file directly via bb -f
 (when (= *file* (System/getProperty "babashka.file"))
   (apply -main *command-line-args*))
