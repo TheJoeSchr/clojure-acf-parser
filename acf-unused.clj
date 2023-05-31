@@ -18,7 +18,7 @@
 (comment
   (do
     (def -filenames '("test/files/appmanifest_1190460.acf" "test/files/appmanifest_12210.acf" "test/files/appmanifest_1282730.acf" "test/files/appmanifest_1434950.acf"))
-    (resolve-installs -filenames "test/files/common/")
+    (parser/resolve-installs -filenames "test/files/common/")
     (filterGames -filenames "test/files/common/" false)
     (doseq [item (filterGames -filenames "test/files/common/" false)]
       (println item))))
